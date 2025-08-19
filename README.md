@@ -1,2 +1,1 @@
-# Web_Design_Class
-Class work
+# Web_Design_Projects
