@@ -1,5 +1,5 @@
 # Web_Design_Projects
 
 <ul>
-    <li><a href="intro_html/index.html" target="_blank">Introduction to HTML</a></li>
+    <li><a href="Intro_HTML_Chapter1" target="_blank">Introduction to HTML</a></li>
 </ul>
