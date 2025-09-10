@@ -55,6 +55,10 @@ a {
     color: #203D3F;
     }
 
+hr {
+    border: 1px solid #3E4031;
+}
+
 main img{
     display: block;
     margin: 20px auto;

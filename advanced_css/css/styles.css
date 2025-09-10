@@ -1,0 +1,123 @@
+body {
+    background-color: #182424;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+#container {
+    background-color: #364944;
+    width: 90%; 
+    margin:20px auto;
+    border:4px solid #BEBFB4;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ #header {
+    background-color: #182424;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+ }
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid #182424;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    color: #9D1D13;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 2px solid #182424;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: #182424;
+    color: white;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #364944;
+}
+main h2{
+    text-align: center;
+}
+
+main h4 {
+    color: #C80D0A;
+    text-align: center;
+}
+
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+.multi_col {
+    display: flex;
+}
+
+.reviewmovie {
+    color: #182424;
+    padding: 10px;
+}
+
+
+section, aside {
+ border-radius: 20px;
+ border: 2px solid black;
+ margin: 20px;
+ padding: 20px;
+}
+
+section {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+    border-radius: 10px;
+    border:2px solid black;
+    width:75%;
+}
+
+hr {
+    border: 2px solid #BEBFB4;
+}
