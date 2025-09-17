@@ -1,0 +1,181 @@
+/* Global Styles */
+
+body {
+    background-color: #BEBFB4;
+}
+
+.main_content h2{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #364944;
+
+}
+
+a {
+    color: beige;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: darkred;
+}
+a:visited {
+    color: red
+}
+
+h1, h2 {
+    text-align: center
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+header img {
+    border: 2px solid #BEBFB4;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* Mobile Style */
+
+#container {
+    padding: 10px;
+    border: 2px solid #364944;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #cdcec0 ;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+nav li a:hover {
+    background-color: #364944;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main_content {
+    padding: 10px;
+}
+
+.main_content p, .revision p {
+  text-align: center;
+}
+.col {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.col img {
+    border-radius: 10px;
+    border: 2px solid #364944;
+    max-width: 100%;
+    height: auto;
+}
+.revision h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+/* Tablet Stlyes */
+
+@media (min-width: 768px) {
+    body {
+        background-color: #888C7A;
+    }
+
+    .col img {
+    width: 80%;
+    }
+}
+
+
+/* Desktop Stlye */
+
+@media (min-width: 900px) {
+    #container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #636963;
+    }
+
+    .texts {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px
+    }
+
+    .col, .texts{
+        flex: 1;
+    }
+
+    .multi_col {
+        display: flex;
+    }
+    
+    .movie_section, .movie_aside {
+        border-radius: 20px;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .movie_section {
+        width: 75%;
+    }
+
+    .movie_aside {
+        width: 25%;
+    }
+
+}

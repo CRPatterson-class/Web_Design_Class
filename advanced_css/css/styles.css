@@ -2,15 +2,29 @@ body {
     background-color: #182424;
 }
 
+h1, h2 {
+    text-align: center
+}
+
+h3, h4 {
+    text-align: center;
+}
+
 img {
     display: block;
     margin: 0 auto;
     width: 100%
 }
 
+a {
+    color: black
+}
+
 a:hover{
     color: red;
     text-decoration: none;
+
+
 }
 #container {
     background-color: #364944;
@@ -21,7 +35,7 @@ a:hover{
     border-radius: 20px;
 }
 
- #header {
+#header {
     background-color: #182424;
     padding: 10px;
     text-align: center;
@@ -74,6 +88,7 @@ nav li a:hover {
 main h2{
     text-align: center;
 }
+
 
 main h4 {
     color: #C80D0A;
