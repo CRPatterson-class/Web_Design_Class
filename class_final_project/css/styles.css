@@ -697,7 +697,7 @@ video {
         gap: 28px;
         list-style: none;
         padding: 0;
-        margin: 20px auto;
+        max width: none;
         width: fit-content;
 
     }
