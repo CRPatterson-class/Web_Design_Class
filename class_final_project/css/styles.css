@@ -82,6 +82,8 @@ video {
 
 /* Links */
 
+    
+
     nav a:hover {
         background-color:#F2AEDB;
     }
@@ -487,7 +489,41 @@ video {
 }
 
 
+@media (min-width: 601px) and (max-width:767.98px) {
 
+    nav ul {
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           gap: 10px;
+           padding: 0;
+           margin: 16px auto;
+           list-style: none; 
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        display: block;
+        font-family: "Funnel Display", sans-serif;
+        font-weight: 700;
+        background-color: #b38ee7;
+        min-width: 120px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        border-radius: 8px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
 
 
 
@@ -496,6 +532,7 @@ video {
 
 
 /* Mobile Styles */
+
     @media (max-width: 600px) {
     
     nav {
@@ -648,13 +685,20 @@ video {
         background-size: cover;
     }
     
-    nav ul {
+    nav {
         display: flex;
         justify-content: center;
-        gap: 28px;
         padding: 0;
-        margin: 20px;
-        max-width: 1200px;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 28px;
+        list-style: none;
+        padding: 0;
+        margin: 20px auto;
+        width: fit-content;
 
     }
 
